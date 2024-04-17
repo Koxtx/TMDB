@@ -1,0 +1,33 @@
+body{
+    max-width: 430px;
+}
+header{
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    font-size: 10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    size: 10px;
+    display: block;
+}
+.film{
+    display: none;
+}
+.serie{
+    display: none;
+}
+path{
+    
+    width: 20px;
+    height: 20px;
+}

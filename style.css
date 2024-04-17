@@ -1,0 +1,136 @@
+*{margin: 0;
+  box-sizing: border-box;}
+body{
+  font-family: "Lexend Deca",sans-serif;
+  background-color: black;
+  color: #D81F26;
+  
+  width: 100%;
+}
+header{
+  background-color: #D81F26;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  
+  padding: 5px;
+}
+header>a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+svg{
+  display: none;
+}
+
+h3{
+  color: white;
+}
+
+footer{
+  background-color: #D81F26;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.topmedia {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;
+  width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.recentmedia {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;
+  width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.comingmedia {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;
+  width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.toptv {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;
+  width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.airingtv {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.populartv {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: auto;
+  width: 80%;
+  scrollbar-width: thin;
+  scrollbar-color:  rgba(169, 169, 169, 0.164) black;
+}
+
+.card {
+  border: 1px solid black;
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+  width: 300px;
+}
+.card>p{
+  overflow: auto;
+}
+
+.note {
+  color: red;
+  font-weight: 700;
+  padding: 0;
+}
+
+.film{
+  display: inline-block;
+}
+.serie{
+  display: inline-block;
+}
